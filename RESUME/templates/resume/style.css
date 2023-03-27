@@ -1,0 +1,139 @@
+/* General Reset */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: sans-serif;
+    color: #333;
+}
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #333;
+}
+li{
+    list-style: none;
+}
+
+
+/* Container Fluid */
+
+.container-fluid {
+    max-width: 210mm; /* A4 paper width */
+    margin: 0 auto; /* center the container horizontally */
+    padding: 0; /* remove default padding */
+    background-color: aquamarine;
+    margin-top: 4rem;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+/* ASIDE BAR */
+
+.aside{
+    background-color: #253847;
+    color: #ddeef5;
+    /* text-align: center; */
+}
+.aside-container{
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    align-items: center;
+    justify-content: center;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+
+}
+
+.info-heading
+{
+    font-size: 1.4rem;    
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0.8rem;
+}
+.details{
+    padding-right: 1rem;
+    letter-spacing: 0.6px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.img-box{
+    width: 16rem;
+}
+.img-box img{
+    width: 100%;
+    border: #ddeef5 solid 1px;
+    border-radius: 100%;
+}
+
+/* Main container */
+.main-container{
+    
+    background-color: #ffffff;
+}
+
+/* Tempary */
+.contact{
+    background-color: aqua;
+}
+.education{
+
+    background-color: aquamarine;
+}
+.refreances{
+    
+    background-color: aquamarine;
+}
+
+/* inside-main-container */
+.inside-main-container{
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.header{
+    background-color: rgba(245,245,245,255);
+    padding:3rem 4rem ;
+    text-align: center;
+}
+
+.profile{
+    background-color: aqua;
+}
+.work-exp{
+    background-color: aqua;
+    
+}
+
+.skills,
+.languages,
+.specializations,
+.projects
+{
+    background-color: aqua;
+
+}
